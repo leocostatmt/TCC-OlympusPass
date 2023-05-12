@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Validação de Check-in</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Validação de Check-in</h1>
+  <H2>Insira o Nome e E-mail do Cliente Corretamente para validar o Check-in</H2>
+  <form id="checkinForm">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" required>
+ 
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required>
+ 
+    <label for="checkinDate">Data de Check-in:</label>
+    <input type="date" id="checkinDate" required>
+ 
+    <input type="submit" value="Check-in">
+  </form>
+ 
+  <div id="validationMessage">
+   
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
